@@ -6,12 +6,19 @@
 
 body {
   margin-left: 10vw;
+  margin-right: 10vw;
   font-family: 'Rubik', sans-serif;
   color: LightGrey;
   background-color: SlateGrey;
 }
-.academic {
+.stuff,
+.food {
   text-align: center;
+  padding-bottom: 10vh;
+}
+
+.link {
+  box-shadow: 6px 6px 28px -4px rgba(176,176,176,0.8);
 }
 /* .content { */
   /* display: flex; */
