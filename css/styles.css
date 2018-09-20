@@ -10,13 +10,24 @@ body {
   font-family: 'Rubik', sans-serif;
   color: LightGrey;
   background-color: SlateGrey;
+  border-left: 2px dashed White;
+  border-right: 2px dashed White;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.emoji {
+  font-size: 100px;
 }
 .stuff,
 .food {
   text-align: center;
   padding-bottom: 10vh;
 }
-
+.text {
+  padding-left: 17vw;
+  text-align: left;
+}
 .link {
   box-shadow: 6px 6px 28px -4px rgba(176,176,176,0.8);
 }
@@ -25,11 +36,10 @@ body {
   /* flex-wrap: wrap; */
   /* max-width: 100%; */
 }
-
-@media screen and (min-width: 480px) {
-
-}
-
-@media screen and (min-width: 720px) {}
-
+footer {
+  text-align: left;
+  font-family: 'Libre Barcode 128 Text', sans-serif;
+  height: auto;
+  position: relative;
+  bottom: 0px;
 }
