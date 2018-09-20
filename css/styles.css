@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
+
+@font-face {font-family: 'Rubik', sans-serif;}
+@font-face {font-family: 'Libre Barcode 128 Text', cursive;}
+
+body {
+  margin-left: 10vw;
+  font-family: 'Rubik', sans-serif;
+  color: LightGrey;
+  background-color: SlateGrey;
+}
+.academic {
+  text-align: center;
+}
+/* .content { */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* max-width: 100%; */
+}
+
+@media screen and (min-width: 480px) {
+
+}
+
+@media screen and (min-width: 720px) {}
+
+}
